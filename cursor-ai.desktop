@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Cursor AI
+Exec=/home/user/Cursor.AppImage
+Icon=/home/user/Pictures/cursor.png
+Type=Application
+Terminal=false
+Categories=Utility;
