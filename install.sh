@@ -2,7 +2,7 @@
 
 sudo rpm-ostree override remove firefox firefox-langpacks
 sudo rpm-ostree upgrade
-sudo rpm-ostree install vim opendoas zsh zsh-autosuggestions zsh-syntax-highlighting gh rust aspnetcore-runtime-9.0 dotnet-sdk-9.0 java-25-openjdk k9s helm kustomize docker-buildx docker-compose docker-cli golang alacritty fuzzel gparted fastfetch tmate xwayland-satellite keepassxc opentofu htop p7zip unar cargo source-foundry-hack-fonts syncthing ghex
+sudo rpm-ostree install vim opendoas zsh zsh-autosuggestions zsh-syntax-highlighting gh rust aspnetcore-runtime-9.0 dotnet-sdk-9.0 java-25-openjdk k9s helm kustomize docker-buildx docker-compose docker-cli golang alacritty fuzzel gparted fastfetch tmate xwayland-satellite keepassxc opentofu htop p7zip unar cargo source-foundry-hack-fonts syncthing ghex wireguard-tools
 sudo usermod -aG docker $USER
 
 echo 'zsh' >> ~/.bashrc
